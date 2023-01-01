@@ -64,4 +64,4 @@ jobs:
           name:  s3-buckets
           template: s3.yaml
           no-fail-on-empty-changeset: "1"
-          parameter-overrides: file://dev_param.json
+          parameter-overrides: ./dev_param.json
