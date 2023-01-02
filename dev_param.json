@@ -1,1 +1,1 @@
-[ { "env": "dev", "BucketName": "new-sam-deployment-bucket" }]
+[ {"BucketName": "new-sam-deployment-bucket" }]
