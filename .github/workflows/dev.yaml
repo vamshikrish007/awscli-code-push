@@ -43,6 +43,7 @@ jobs:
           aws s3 cp ./dev_param.json s3://$aws_s3_bucket/soho/
 
   dev-deployment:
+    needs: upload
     runs-on: ubuntu-latest
     environment: dev
     steps:
